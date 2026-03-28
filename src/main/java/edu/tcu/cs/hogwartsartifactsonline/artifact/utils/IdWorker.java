@@ -3,8 +3,9 @@ package edu.tcu.cs.hogwartsartifactsonline.artifact.utils;
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
+import org.springframework.stereotype.Component;
 
-
+@Component
 public class IdWorker {
 
     private final static long twepoch = 1288834974657L;
